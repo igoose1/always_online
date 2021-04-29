@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 	"math/rand"
+	"os"
 	"strconv"
 	"time"
-	"os"
 )
 
 func main() {
@@ -24,6 +24,6 @@ func main() {
 		os.Exit(1)
 	}
 
-	result := rand.Int63n(right - left) + left
+	result := rand.Int63n(right-left) + left
 	fmt.Println(result)
 }
