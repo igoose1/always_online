@@ -1,0 +1,15 @@
+Oh, no, no, no. You found this project and you want to keep your Telegram
+account online every minute. You're a monster.
+
+I'm a monster too so tools are written in 3 Turing complete languages (POSIX
+shell, Go, Python). Ok, ok, explanation: Python is because of an awesome
+library "Telethon", Go is for a binary file of `random`, shell is for
+while true do do do done. Look, nothing disgusting :-)
+
+To start:
+
+	python -m pip install -r requirements.txt
+
+	go build random.go
+
+	./hold.sh
